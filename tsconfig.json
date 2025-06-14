@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "esnext", // Or ES5, ES6, etc.
+    "module": "nodenext", // Or CommonJS, System, etc.
+    "outDir": "dist", // Output directory for compiled JavaScript
+    "rootDir": "src", // Root directory for source files
+    "strict": true, // Enable strict type checking
+    "skipLibCheck": true, // Skips type checking of declaration files
+    "skipDefaultLibCheck": true, // Skips type checking of the default library declarations
+    "sourceMap": true, // Generate source mapsi,
+    "moduleResolution": "nodenext"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["dist"]
+}

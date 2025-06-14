@@ -1,0 +1,24 @@
+{
+  "name": "ferenylsglazevmscripts",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.5",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/node": "^24.0.1",
+    "rollup": "^4.43.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "glazewm": "^1.7.0",
+    "ws": "^8.18.2"
+  }
+}
