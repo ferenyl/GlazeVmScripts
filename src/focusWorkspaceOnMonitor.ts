@@ -1,6 +1,7 @@
 /*
     Focus workspace on same monitor
     simulates isolated workspaces
+    inspiration from https://gist.github.com/sam-lex/2f854cacff3efe94abbc232e84d3ce10
 */
 import { WmClient } from "glazewm";
 import { promiseTimeout } from "./helper.functions.js";
