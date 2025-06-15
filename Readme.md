@@ -18,7 +18,7 @@ Configuration:
 
 - prefix workspace name with monitor index
 - add bindings for focus workspace
-- add bindings for move to workspace
+- add bindings for move focused window to workspace
 
 ```
 workspaces:
@@ -54,6 +54,24 @@ keybindings:
         'shell-exec --hide-window node "PATH_TO_DIR\dist\moveToWorkspaceOnMonitor.js" 2',
       ]
     bindings: ["lwin+shift+2"]
+```
+
+## moveToMonitor
+
+Move focused window to specified monitor
+
+```
+keybindings:
+  - commands:
+      [
+        'shell-exec --hide-window node "PATH_TO_DIR\dist\moveToMonitor.js" 0',
+      ]
+    bindings: ["lwin+shift+alt+1"]
+  - commands:
+      [
+        'shell-exec --hide-window node "PATH_TO_DIR\dist\moveToMonitor.js" 1',
+      ]
+    bindings: ["lwin+shift+alt+2"]
 ```
 
 ## moveAllToWorkspace

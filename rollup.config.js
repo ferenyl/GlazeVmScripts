@@ -20,6 +20,14 @@ export default [
     plugins: [resolve(), commonjs(), typescript()]
   },
   {
+    input: 'src/moveToMonitor.ts',
+    output: {
+      dir: 'dist/',
+      format: 'es'
+    },
+    plugins: [resolve(), commonjs(), typescript()]
+  },
+  {
     input: 'src/moveAllToWorkspace.ts',
     output: {
       dir: 'dist/',
