@@ -1,3 +1,5 @@
+// Taken from https://gist.github.com/sam-lex/f6b433c7b5c713bac8aae5c444376a9c
+
 import { ContainerType, Window, WmClient } from "glazewm";
 
 export function promiseTimeout(ms: number): Promise<void> {
